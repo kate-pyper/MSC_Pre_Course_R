@@ -1,0 +1,24 @@
+﻿{
+    "courseId": "Intro-to-R",
+    "title": "Making a start with R",
+    "slogan": "Making a start with R",
+    "description": "This resource is intended for the use of students doing the MSc in Actuarial Science at the University of Strathclyde. It has been designed to introduce you to the core concepts to mak the transition to using R easier.",
+    "bio": "I'm Kate Pyper, a teaching assistant at the University of Strathclyde.",
+    "siteUrl": "https://kate-pyper.github.io/interactive_course_test",
+    "twitter": "kate_pyper",
+    "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
+    "testTemplate": "success <- function(text) {\n    cat(paste(\"\\033[32m\", text, \"\\033[0m\", sep = \"\"))\n}\n\n.solution <- \"${solutionEscaped}\"\n\n${solution}\n\n${test}\ntryCatch({\n    test()\n}, error = function(e) {\n    cat(paste(\"\\033[31m\", e[1], \"\\033[0m\", sep = \"\"))\n})",
+    "juniper": {
+        "repo": "kate-pyper/interactive_course_test",
+        "branch": "binder",
+        "lang": "r",
+        "kernelType": "ir",
+        "debug": false
+    },
+    "showProfileImage": true,
+    "footerLinks": [
+        { "text": "Source Code", "url": "https://github.com/kate-pyper/Interactive_course_test" },
+        { "text": "Built with ♥", "url": "https://github.com/ines/course-starter-r" }
+    ],
+    "theme": "#de7878"
+}
